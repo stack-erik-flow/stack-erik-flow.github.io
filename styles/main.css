@@ -1,0 +1,151 @@
+body{
+    
+    /* background-image: url("../images/background.jpg"); */
+    
+   
+    
+    border-top: 50pt;
+    border-top: blue;
+    /* color: rgb(120, 60, 20); */
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0pt;
+   
+   
+  
+    /* background-position: top; */
+}
+
+header{
+    background-image: url("../images/shells.JPG");
+    box-shadow: rgb(120, 60, 20) 3px 3px 10px;
+    background-size: 100%;
+    background-position: center;
+    height: 380px;
+    font-size: 40pt;
+    font-family: 'Syne Tactile', cursive;
+    color: white;
+    padding: 15px 50px;
+    margin: 0px 0px;
+
+   
+}
+
+
+header .display-pic{
+    background-color: none;
+    background-image: url("../images/picture-of-me.jpg");
+    background-size: 70px 70px;
+    background-repeat: no-repeat;
+    position:relative;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    text-indent: -99999999px;
+    box-shadow: white 1px 1px 6px;
+    margin-right: 2px;
+
+}
+nav ul {
+
+  
+    display: flex;
+    flex-direction: row;
+    font-size: 45pt;
+
+    border-radius: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 0pt;
+    padding: 5px 10px;
+    background-color: rgb(88, 142, 168);
+    list-style-type: none;
+   
+    box-shadow: inset rgb(120, 60, 20) 4px -3px 0px;
+}
+
+nav li {
+   
+    margin: 0pt 30pt 0pt 0pt;
+    /* background-color: brown; */
+    border-radius: 13px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+
+    
+}
+
+nav a :active,nav a:hover, #in-use{
+    background-color: rgb(120, 60, 20);
+    border-radius: 13px;
+    padding: 5pt;
+    
+}
+
+#title{
+    margin-top: 120px;
+    margin-bottom: 80px;
+}
+
+section p{
+    margin-bottom: 20px;
+    margin-left: 100;
+    margin-right:100 ;
+
+}
+button {
+    text-align: bottom;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+}
+
+footer{
+    /* background-color: black; */
+    padding: 5px 5px;
+    margin-top: 120px;
+    /* text-align: right; */
+   
+}
+
+/* Positioning */
+
+p, summary{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 300;
+    margin-right:300 ;
+}
+
+h2{
+    color: rgb(120, 60, 20);
+    margin: 80 300 0 ;
+}
+
+
+h2 p{
+    text-align: justify;
+   
+}
+section h1{
+    font-size: 35;
+    color: rgb(120, 60, 20);
+}
+
+example{
+    display: inline;
+
+}
+
+
+example img{
+    height: 300;
+    margin: 30px;
+}
