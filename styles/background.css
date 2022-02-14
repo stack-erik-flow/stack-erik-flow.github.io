@@ -1,5 +1,6 @@
 body{
-    background-image: url("/images/background.JPG");
+    /* background-image: url("/images/background.JPG"); */
+    background-color: rgb(199, 175, 146);
 }
 
 p {

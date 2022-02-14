@@ -1,20 +1,10 @@
 body{
     
-    /* background-image: url("../images/background.jpg"); */
-    
-   
-    
-    border-top: 50pt;
-    border-top: blue;
-    /* color: rgb(120, 60, 20); */
     color: black;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     margin: 0pt;
-   
-   
-  
-    /* background-position: top; */
+
 }
 
 header{
@@ -43,7 +33,7 @@ header .display-pic{
     width: 70px;
     height: 70px;
     text-indent: -99999999px;
-    box-shadow: white 1px 1px 6px;
+    box-shadow: rgb(199, 175, 146) 1px 1px 6px;
     margin-right: 2px;
 
 }
@@ -52,16 +42,16 @@ nav ul {
   
     display: flex;
     flex-direction: row;
-    font-size: 45pt;
+    font-size: 43pt;
 
     border-radius: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px 0pt;
     padding: 5px 10px;
-    background-color: rgb(88, 142, 168);
+    background-color: rgb(255, 255, 255);
     list-style-type: none;
    
-    box-shadow: inset rgb(120, 60, 20) 4px -3px 0px;
+    box-shadow: inset rgb(199, 175, 146) 4px -3px 0px;
 }
 
 nav li {
@@ -75,14 +65,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: white;
+    color: rgb(199, 175, 146);
     text-align: center;
 
     
 }
 
 nav a :active,nav a:hover, #in-use{
-    background-color: rgb(120, 60, 20);
+    background-color: rgb(199, 175, 146);
     border-radius: 13px;
     padding: 5pt;
     
@@ -95,8 +85,8 @@ nav a :active,nav a:hover, #in-use{
 
 section p{
     margin-bottom: 20px;
-    margin-left: 100;
-    margin-right:100 ;
+    margin-left: 300;
+    margin-right:300 ;
 
 }
 button {
@@ -148,4 +138,53 @@ example{
 example img{
     height: 300;
     margin: 30px;
+}
+
+/* Blogs Tab */
+
+#back-button, div a{
+    
+    text-align: left;
+    text-decoration: none;
+    margin-top: 50px;
+    padding-top: 50px;
+    
+}
+
+
+
+.blogs ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-align: center;
+    color: grey;
+    padding: 120px;
+    
+}
+
+.blogs li{
+   
+    text-align: center;
+    margin: auto;
+    text-decoration: none;
+}
+
+/* not working */
+.blogs ul li a:active, a:hover, #in-use{
+    text-decoration: none;
+    color: white;
+}
+/* not working */
+
+.blogs ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25;
+}
+
+.blogs img{
+    width: 300px;
+    height: 150px;
+    list-style-type: none;
 }
