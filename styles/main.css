@@ -33,7 +33,7 @@ header .display-pic{
     width: 70px;
     height: 70px;
     text-indent: -99999999px;
-    box-shadow: rgb(199, 175, 146) 1px 1px 6px;
+    box-shadow: rgb(120, 60, 20) 1px 1px 6px;
     margin-right: 2px;
 
 }
@@ -89,6 +89,7 @@ section p{
     margin-right:300 ;
 
 }
+
 button {
     text-align: bottom;
     border: none;
@@ -97,6 +98,10 @@ button {
     border-radius: 7px;
 }
 
+section h1{
+    font-size: 35;
+    color: rgb(199, 175, 146);
+}
 footer{
     /* background-color: black; */
     padding: 5px 5px;
@@ -105,40 +110,7 @@ footer{
    
 }
 
-/* Positioning */
 
-p, summary{
-    text-align: justify;
-    margin-bottom: 30px;
-    margin-left: 300;
-    margin-right:300 ;
-}
-
-h2{
-    color: rgb(120, 60, 20);
-    margin: 80 300 0 ;
-}
-
-
-h2 p{
-    text-align: justify;
-   
-}
-section h1{
-    font-size: 35;
-    color: rgb(120, 60, 20);
-}
-
-example{
-    display: inline;
-
-}
-
-
-example img{
-    height: 300;
-    margin: 30px;
-}
 
 /* Blogs Tab */
 
@@ -195,4 +167,36 @@ example img{
     height: 150px;
     list-style-type: none;
     
+}
+
+/* Positioning */
+
+p, summary{
+    text-align: justify;
+    margin-bottom: 30px;
+    margin-left: 300;
+    margin-right:300 ;
+}
+
+h2{
+    color: rgb(199, 175, 146);
+    margin: 80 300 0 ;
+}
+
+
+h2 p{
+    text-align: justify;
+   
+}
+
+
+example{
+    display: inline;
+
+}
+
+
+example img{
+    height: 300;
+    margin: 30px;
 }
