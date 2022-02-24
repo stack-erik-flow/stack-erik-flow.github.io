@@ -61,6 +61,8 @@ nav li {
     border-radius: 13px;
     text-decoration: none;
     text-align: center;
+    /* border-color: rgb(199, 175, 146);
+    border: 1px; */
 }
 
 nav a {
