@@ -212,3 +212,24 @@ example img{
   top: 400px;
   left: 50px;
 }
+
+/* laptop */
+
+@media (min-width:1200px) {
+  h1,h2, {font-size: 120px;}
+  example img{height: 100px;}
+}
+
+/* tablet */
+@media (max-width:800px) {
+  h1,h2, header, nav, a{font-size: 30px;}
+  example img{height: 100px;}
+}
+
+/* phone */
+@media (max-width:320px) {
+  h1,h2, header, nav, a{font-size: 20px;}
+  example img{height: 100px;}
+}
+
+
